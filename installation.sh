@@ -10,6 +10,7 @@ sudo yum -y install python3 python3-pip
 else
 exit
 fi
+pip3 install PyQt5
 mkdir ~/.openvpn
 mv main.py ~/.openvpn
 mv openvpn.png ~/.openvpn
