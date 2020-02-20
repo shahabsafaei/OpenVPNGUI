@@ -4,7 +4,7 @@ sudo apt install python3 python3-pip -y
 elif grep -qs "Debian GNU/Linux" /etc/os-release; then
 sudo apt install python3 python3-pip -y
 elif grep -qs "Arch Linux" /etc/os-release; then
-sudo pacman -S python3 python3-pip
+sudo pacman -S python3 python-pip --noconfirm
 elif grep -qs "CentOS" /etc/redhat-release; then
 sudo yum -y install python3 python3-pip
 else
